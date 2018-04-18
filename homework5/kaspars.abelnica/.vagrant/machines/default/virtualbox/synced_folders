@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"C:/Users/maust/Documents/devops-rtu/devops-rtu/homework5/kaspars.abelnica","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
