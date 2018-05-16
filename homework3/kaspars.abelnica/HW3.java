@@ -87,9 +87,7 @@ public class HW3 {
 		HW3 tree = new HW3();
 		sc = new Scanner(System.in);
 		
-		//Izvada informāciju par autoru
-		System.out.println("Binārais meklēšanas koks");
-		System.out.println("Kaspars Ābelnīca RDBI0-2 161RDB025");
+		System.out.println("Binary Search Tree");
 		
 		boolean created = false;
 		boolean running = true;
@@ -98,12 +96,12 @@ public class HW3 {
 		
 		while(running){
 			if(!created){
-				System.out.println("Lai izveidotu koku, ievadiet pirmo elementu:");
+				System.out.println("Enter first element:");
 				try{
 					add = sc.nextInt();
 				}
 				catch(Exception e){
-					System.out.println("Kļūda: jāievada vesels skaitlis");
+					System.out.println("Error: must enter integer");
 					sc.nextLine();
 					continue;
 				}
@@ -111,29 +109,29 @@ public class HW3 {
 				created = true;
 			}	
 			if(created){
-				System.out.println("Izvēlieties operāciju:");
-				System.out.println("1) Pievienot elementu");
-				System.out.println("2) Izvadīt koka virsotnes preorderiāli");
-				System.out.println("3) Izvadīt koka lapu skaitu");
-				System.out.println("4) Atrast elementus, kas pieder intervālam [-10;10]");
-				System.out.println("0) Iziet");
+				System.out.println("Pick your option:");
+				System.out.println("1) Add element");
+				System.out.println("2) PreOrder uutput");
+				System.out.println("3) Print leaves amount");
+				System.out.println("4) Find elements between [-10;10]");
+				System.out.println("0) Exit");
 				
 				try{
 					selection = sc.nextInt();	
 				}
 				catch (Exception e){
-					System.out.println("Kļūda: jāievada vesels skaitlis");
+					System.out.println("Error: must enter integer");
 				}
 				
 				switch(selection){
 				
 				case 1:
-					System.out.println("Ievadiet jaunā mezgla vērtību: ");
+					System.out.println("Enter new node: ");
 					int value = 0;
 					try {
 						value = sc.nextInt();
 					} catch (Exception e) {
-						System.out.println("Kļūda: jāievada Integer tipa vērtība");
+						System.out.println("Error: must enter integer");
 						sc.nextLine();
 						break;
 					}
@@ -141,7 +139,7 @@ public class HW3 {
 					break;
 				
 				case 2:
-					System.out.println("Koka virsotnes:");
+					System.out.println("Nodes:");
 					System.out.println();
 					tree.printPreorder();
 					System.out.println();
@@ -150,19 +148,19 @@ public class HW3 {
 					
 				case 3:
 					 System.out.println();
-	                 System.out.println("Lapu skaits: " + tree.countLeaves(root));
+	                 System.out.println("Leaves: " + tree.countLeaves(root));
 	                 System.out.println();
 	                 break;
 	             
 				case 4:
 					System.out.println();
-					System.out.println("Elementi, kas pieder intervālā, [-10;10]: " + tree.countInterval(root));
+					System.out.println("Elements between [-10;10]: " + tree.countInterval(root));
 					System.out.println();
 					break;
 				
 				case 0:
 					running = false;
-					System.out.println("Programma aizvērta!");
+					System.out.println("Finished!");
 					break;
 					
 				default:
