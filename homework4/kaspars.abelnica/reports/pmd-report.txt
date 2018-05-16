@@ -1,0 +1,116 @@
+src/HW4.java:5:	All classes and interfaces must belong to a named package
+src/HW4.java:5:	Avoid short class names like Node
+src/HW4.java:5:	Header comments are required
+src/HW4.java:6:	Field comments are required
+src/HW4.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HW4.java:6:	To avoid mistakes add a comment at the beginning of the data field if you want a default access modifier
+src/HW4.java:6:	Use explicit scoping instead of the default package private level
+src/HW4.java:7:	Avoid variables with short names like lc
+src/HW4.java:7:	Avoid variables with short names like rc
+src/HW4.java:7:	Field comments are required
+src/HW4.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HW4.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/HW4.java:7:	To avoid mistakes add a comment at the beginning of the lc field if you want a default access modifier
+src/HW4.java:7:	Use explicit scoping instead of the default package private level
+src/HW4.java:9:	Parameter 'data' is not assigned and could be declared final
+src/HW4.java:9:	Public method and constructor comments are required
+src/HW4.java:15:	All classes and interfaces must belong to a named package
+src/HW4.java:15:	Avoid short class names like HW4
+src/HW4.java:15:	Header comments are required
+src/HW4.java:15:	The class 'HW4' has a Standard Cyclomatic Complexity of 5 (Highest = 12).
+src/HW4.java:16:	Field comments are required
+src/HW4.java:16:	Possible unsafe assignment to a non-final static field in a constructor.
+src/HW4.java:17:	Avoid variables with short names like sc
+src/HW4.java:17:	Field comments are required
+src/HW4.java:19:	Public method and constructor comments are required
+src/HW4.java:20:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/HW4.java:23:	Avoid variables with short names like n
+src/HW4.java:23:	Parameter 'n' is not assigned and could be declared final
+src/HW4.java:23:	Public method and constructor comments are required
+src/HW4.java:24:	Avoid using if statements without curly braces
+src/HW4.java:25:	A method should have only one exit point, and that should be the last statement in the method
+src/HW4.java:25:	This statement should have braces
+src/HW4.java:27:	A method should have only one exit point, and that should be the last statement in the method
+src/HW4.java:27:	Avoid using if...else statements without curly braces
+src/HW4.java:27:	This statement should have braces
+src/HW4.java:29:	Avoid using if...else statements without curly braces
+src/HW4.java:29:	This statement should have braces
+src/HW4.java:32:	Public method and constructor comments are required
+src/HW4.java:32:	The method 'printPreorder()' has a NCSS line count of 13.
+src/HW4.java:33:	Avoid using if statements without curly braces
+src/HW4.java:34:	This statement should have braces
+src/HW4.java:35:	Avoid variables with short names like s
+src/HW4.java:35:	Local variable 's' could be declared final
+src/HW4.java:37:	Avoid unnecessary comparisons in boolean expressions
+src/HW4.java:38:	Avoid variables with short names like n
+src/HW4.java:38:	Local variable 'n' could be declared final
+src/HW4.java:39:	System.out.print is used
+src/HW4.java:41:	Avoid using if statements without curly braces
+src/HW4.java:42:	This statement should have braces
+src/HW4.java:43:	Avoid using if statements without curly braces
+src/HW4.java:44:	This statement should have braces
+src/HW4.java:48:	Avoid variables with short names like x
+src/HW4.java:48:	Parameter 'x' is not assigned and could be declared final
+src/HW4.java:48:	Public method and constructor comments are required
+src/HW4.java:48:	The method 'insert(int)' has a NCSS line count of 20.
+src/HW4.java:49:	Avoid variables with short names like n
+src/HW4.java:49:	Found 'DU'-anomaly for variable 'n' (lines '49'-'75').
+src/HW4.java:49:	Local variable 'n' could be declared final
+src/HW4.java:52:	A method should have only one exit point, and that should be the last statement in the method
+src/HW4.java:54:	Found 'DU'-anomaly for variable 'current' (lines '54'-'75').
+src/HW4.java:55:	Found 'DD'-anomaly for variable 'parent' (lines '55'-'57').
+src/HW4.java:55:	Found 'DU'-anomaly for variable 'parent' (lines '55'-'75').
+src/HW4.java:57:	Found 'DD'-anomaly for variable 'parent' (lines '57'-'57').
+src/HW4.java:57:	Found 'DU'-anomaly for variable 'parent' (lines '57'-'75').
+src/HW4.java:62:	A method should have only one exit point, and that should be the last statement in the method
+src/HW4.java:68:	These nested if statements could be combined
+src/HW4.java:77:	Parameter 'root' is not assigned and could be declared final
+src/HW4.java:77:	Public method and constructor comments are required
+src/HW4.java:78:	Avoid using if statements without curly braces
+src/HW4.java:79:	A method should have only one exit point, and that should be the last statement in the method
+src/HW4.java:79:	This statement should have braces
+src/HW4.java:80:	Local variable 'count' could be declared final
+src/HW4.java:82:	A method should have only one exit point, and that should be the last statement in the method
+src/HW4.java:82:	Avoid using if...else statements without curly braces
+src/HW4.java:82:	This statement should have braces
+src/HW4.java:84:	Avoid using if...else statements without curly braces
+src/HW4.java:84:	This statement should have braces
+src/HW4.java:87:	Parameter 'args' is not assigned and could be declared final
+src/HW4.java:87:	Public method and constructor comments are required
+src/HW4.java:87:	The method 'main' has a Standard Cyclomatic Complexity of 12.
+src/HW4.java:87:	The method 'main(String)' has a NCSS line count of 62.
+src/HW4.java:87:	The method 'main(String)' has a cyclomatic complexity of 12.
+src/HW4.java:88:	Found 'DU'-anomaly for variable 'tree' (lines '88'-'172').
+src/HW4.java:88:	Local variable 'tree' could be declared final
+src/HW4.java:91:	System.out.println is used
+src/HW4.java:93:	Found 'DU'-anomaly for variable 'created' (lines '93'-'172').
+src/HW4.java:95:	Found 'DD'-anomaly for variable 'selection' (lines '95'-'121').
+src/HW4.java:95:	Found 'DU'-anomaly for variable 'selection' (lines '95'-'172').
+src/HW4.java:100:	System.out.println is used
+src/HW4.java:104:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HW4.java:105:	System.out.println is used
+src/HW4.java:113:	System.out.println is used
+src/HW4.java:114:	System.out.println is used
+src/HW4.java:115:	System.out.println is used
+src/HW4.java:116:	System.out.println is used
+src/HW4.java:117:	System.out.println is used
+src/HW4.java:118:	System.out.println is used
+src/HW4.java:123:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HW4.java:124:	System.out.println is used
+src/HW4.java:130:	System.out.println is used
+src/HW4.java:131:	Found 'DD'-anomaly for variable 'value' (lines '131'-'133').
+src/HW4.java:133:	Found 'DU'-anomaly for variable 'value' (lines '133'-'172').
+src/HW4.java:134:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/HW4.java:135:	System.out.println is used
+src/HW4.java:143:	System.out.println is used
+src/HW4.java:144:	System.out.println is used
+src/HW4.java:146:	System.out.println is used
+src/HW4.java:147:	System.out.println is used
+src/HW4.java:151:	System.out.println is used
+src/HW4.java:152:	System.out.println is used
+src/HW4.java:153:	System.out.println is used
+src/HW4.java:157:	System.out.println is used
+src/HW4.java:158:	System.out.println is used
+src/HW4.java:159:	System.out.println is used
+src/HW4.java:163:	Found 'DU'-anomaly for variable 'running' (lines '163'-'172').
+src/HW4.java:164:	System.out.println is used
